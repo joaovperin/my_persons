@@ -2,6 +2,7 @@
     "person": [{
             "id": 1,
             "name": "Leanne Graham",
+            "sex": "women",
             "username": "Bret",
             "email": "Sincere@april.biz",
             "address": {
@@ -25,6 +26,7 @@
         {
             "id": 2,
             "name": "Ervin Howell",
+            "sex": "men",
             "username": "Antonette",
             "email": "Shanna@melissa.tv",
             "address": {
@@ -48,6 +50,7 @@
         {
             "id": 3,
             "name": "Clementine Bauch",
+            "sex": "women",
             "username": "Samantha",
             "email": "Nathan@yesenia.net",
             "address": {
@@ -71,6 +74,7 @@
         {
             "id": 4,
             "name": "Patricia Lebsack",
+            "sex": "women",
             "username": "Karianne",
             "email": "Julianne.OConner@kory.org",
             "address": {
@@ -94,6 +98,7 @@
         {
             "id": 5,
             "name": "Chelsey Dietrich",
+            "sex": "women",
             "username": "Kamren",
             "email": "Lucio_Hettinger@annie.ca",
             "address": {
@@ -117,6 +122,7 @@
         {
             "id": 6,
             "name": "Mrs. Dennis Schulist",
+            "sex": "women",
             "username": "Leopoldo_Corkery",
             "email": "Karley_Dach@jasper.info",
             "address": {
@@ -140,6 +146,7 @@
         {
             "id": 7,
             "name": "Kurtis Weissnat",
+            "sex": "men",
             "username": "Elwyn.Skiles",
             "email": "Telly.Hoeger@billy.biz",
             "address": {
@@ -163,6 +170,7 @@
         {
             "id": 8,
             "name": "Nicholas Runolfsdottir V",
+            "sex": "men",
             "username": "Maxime_Nienow",
             "email": "Sherwood@rosamond.me",
             "address": {
@@ -186,6 +194,7 @@
         {
             "id": 9,
             "name": "Glenna Reichert",
+            "sex": "women",
             "username": "Delphine",
             "email": "Chaim_McDermott@dana.io",
             "address": {
@@ -209,6 +218,7 @@
         {
             "id": 10,
             "name": "Clementina DuBuque",
+            "sex": "women",
             "username": "Moriah.Stanton",
             "email": "Rey.Padberg@karina.biz",
             "address": {

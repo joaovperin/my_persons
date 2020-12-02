@@ -71,6 +71,12 @@ class EntityListProvider with ChangeNotifier {
   }
 
   Future<void> saveOnWebService(Person entity) async {
-    return Future.delayed(Duration(seconds: 2));
+    /// Não está gravando ainda
+    ///
+    var response = await http.post(
+      'https://my-json-server.typicode.com/joaovperin/my_persons/$kTableName',
+      body: entity.toJson(),
+    );
+    return Future.delayed(Duration(milliseconds: 300));
   }
 }

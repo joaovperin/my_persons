@@ -5,7 +5,6 @@ class Person {
   final String name;
   final String email;
   final String phone;
-  final String website;
   final String photo;
   final String address1;
   final String address2;
@@ -15,7 +14,6 @@ class Person {
     this.name,
     this.email,
     this.phone,
-    this.website,
     this.photo,
     this.address1,
     this.address2,
@@ -26,7 +24,6 @@ class Person {
     String name,
     String email,
     String phone,
-    String website,
     String photo,
     String address1,
     String address2,
@@ -36,7 +33,6 @@ class Person {
       name: name ?? this.name,
       email: email ?? this.email,
       phone: phone ?? this.phone,
-      website: website ?? this.website,
       photo: photo ?? this.photo,
       address1: address1 ?? this.address1,
       address2: address2 ?? this.address2,
@@ -49,7 +45,6 @@ class Person {
       'name': name,
       'email': email,
       'phone': phone,
-      'website': website,
       'photo': photo,
       'address1': address1,
       'address2': address2,
@@ -64,7 +59,6 @@ class Person {
       name: map['name'],
       email: map['email'],
       phone: map['phone'],
-      website: map['website'],
       photo: map['photo'],
       address1: map['address1'],
       address2: map['address2'],
@@ -77,7 +71,7 @@ class Person {
 
   @override
   String toString() {
-    return 'Person(id: $id, name: $name, email: $email, phone: $phone, website: $website, photo: $photo, address1: $address1, address2: $address2)';
+    return 'Person(id: $id, name: $name, email: $email, phone: $phone, photo: $photo, address1: $address1, address2: $address2)';
   }
 
   @override
@@ -89,7 +83,6 @@ class Person {
       o.name == name &&
       o.email == email &&
       o.phone == phone &&
-      o.website == website &&
       o.photo == photo &&
       o.address1 == address1 &&
       o.address2 == address2;
@@ -101,7 +94,6 @@ class Person {
       name.hashCode ^
       email.hashCode ^
       phone.hashCode ^
-      website.hashCode ^
       photo.hashCode ^
       address1.hashCode ^
       address2.hashCode;

@@ -17,7 +17,6 @@ class DbUtils {
                 name TEXT,
                 email TEXT,
                 phone TEXT,
-                website TEXT,
                 photo TEXT,
                 address1 TEXT,
                 address2 TEXT
